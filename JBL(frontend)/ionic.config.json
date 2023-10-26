@@ -1,0 +1,7 @@
+{
+  "name": "JBL",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

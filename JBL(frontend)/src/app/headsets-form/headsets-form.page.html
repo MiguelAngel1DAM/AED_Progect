@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>headsetsForm</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-text-center ion-padding">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">headsetsForm</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-card-title>Añadir Auricular</ion-card-title>
+      
+      <form (submit)="onSubmit($event)">
+        <ion-item>
+          <ion-label position="floating">Nombre</ion-label>
+          <ion-input type="text" name="name" required></ion-input>
+        </ion-item>
+        <ion-button color="primary" expand="full" type="submit">Añadir Auricular</ion-button>
+      </form>
+      
+      <ion-button color="danger" expand="full" (click)="gotoHeadsets()">Atrás</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
