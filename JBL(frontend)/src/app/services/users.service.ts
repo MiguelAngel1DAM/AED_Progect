@@ -23,4 +23,5 @@ export class UsersService {
     const url = `${this.endpoint}/${userId}`;
     return this.httpClient.delete<void>(url);
   }
+
 }

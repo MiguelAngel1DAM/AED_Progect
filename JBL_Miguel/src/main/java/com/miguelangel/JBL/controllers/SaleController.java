@@ -10,7 +10,6 @@ import com.miguelangel.JBL.entity.models.Users;
 import com.miguelangel.JBL.entity.services.SalesService;
 import com.miguelangel.JBL.entity.services.HeadsetService;
 import com.miguelangel.JBL.entity.services.UserService;
-import java.util.Collections;
 
 import java.util.List;
 
